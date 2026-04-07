@@ -1,13 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f4f2;
+  background-color: #fff8f5;
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
 nav {
-  background-color: #e8dcd5;
+  background-color: #f3ece7;
   padding: 15px;
 }
 
@@ -16,7 +16,6 @@ nav a {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-size: 16px;
 }
 
 nav a:hover {
@@ -28,38 +27,28 @@ h1 {
   margin-top: 20px;
 }
 
-h2 {
-  color: #8c5c4b;
+.product {
+  background: white;
+  margin: 20px auto;
+  padding: 15px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-p {
-  color: #333;
-  max-width: 600px;
-  margin: 10px auto;
-}
-
-img {
-  margin: 10px;
+.product img {
   border-radius: 8px;
 }
 
-form input, form textarea {
-  width: 80%;
-  padding: 8px;
-  margin: 5px 0;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-form button {
-  padding: 10px 20px;
+button {
   background-color: #b48b7d;
   color: white;
   border: none;
-  border-radius: 5px;
+  padding: 8px 15px;
+  margin-top: 10px;
   cursor: pointer;
 }
 
-form button:hover {
+button:hover {
   background-color: #8c5c4b;
 }
